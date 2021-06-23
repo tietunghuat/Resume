@@ -1,0 +1,197 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+* {box-sizing: border-box;}
+
+.background
+{
+  z-index: -100;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  position: -webkit-sticky;
+  top: 0;
+  padding-left: 50px;
+  padding-top: 10px; 
+}
+.image {
+  display: flex;
+  width: 260px;
+  height: auto;
+  border-radius: 50%;
+  border: #52616a solid 5px;
+  padding: 3px;
+  margin-right: 50%;
+  transition: transform .2s; /* Animation */
+}
+.image:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@keyframes abc
+{
+    0%
+    {
+        filter: blur(0);
+        opacity: 0;
+    }
+    40%
+    {
+            
+    }
+    90%
+    {
+          opacity: 0;
+          filter: blur(0px);
+    }
+    100%
+    {
+        
+        opacity: 1;
+    }
+}
+.alltitle{
+  position: fixed;
+}
+@keyframes index
+{
+    0%
+    {
+        
+        opacity: 0;
+    }
+  80%{
+     opacity: 0;
+   }
+   82%{
+     opacity: .1;
+   }
+  84%{
+    opacity: .2;
+  }
+   86%{
+    opacity: .3;
+  }
+  88%{
+    opacity: .4;
+  }
+    90%{
+    opacity: .5;
+  }
+  92%{
+    opacity: .6;
+  }
+  94%{
+    opacity: .7;
+  }
+  96%{
+    opacity: .8;
+  }
+  98%{
+    opacity: .9;
+  }
+  
+    100%
+    {
+       
+        opacity: 1;
+    }
+}
+.all{
+  z-index: -1000;
+}
+.class
+{
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 28px;
+ text-align: center;
+}
+.title{
+  width: 350px;
+  height: auto;
+  background:#E0E3DA;
+  margin: 20px 0 0 30px;
+  border-radius: 30px;
+
+}
+.icon
+{
+  width: 80px;
+  height:auto;
+  padding-left: 35px;
+  margin-left: 25px;
+  padding-top: 10px;
+  transition: transform .2s; /* Animation */
+}
+.icon:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.detail
+{
+  top: 5%;
+  left: 24%;
+  background-color: #444f59;
+  color:#FFFFF3;
+  font-family:DFKai-sb;
+  font-size: 30px;
+  width: 1080px;
+  height: 6900px;
+  border-radius: 6px;
+  margin-left: 28%;
+}
+.intro
+{
+  padding: 18px;
+  letter-spacing: 5px;
+}
+hr
+{
+  width: 1000px;
+  color: #FFFFF3;
+}
+.second
+{
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+.ability
+{
+  font-family: 'Texturina', serif;
+  font-size: 40px;
+  padding-left: 15px;
+}
+.school
+{
+  padding-left: 15px;
+  letter-spacing: 1px;
+  line-height: 3px;
+}
+h6
+{
+  font-family:DFKai-sb;
+  font-size: 35px;
+}
+
+.business
+{
+  width: 300px;
+  height: auto;
+  padding: 2px;
+}
+.education
+{
+  font-family: 'Texturina', serif;
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+}
+
